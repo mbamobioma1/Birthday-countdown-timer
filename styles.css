@@ -1,0 +1,95 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #efe8e2;
+}
+.section{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 20px;
+}
+.image-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* right side*/
+.right-container{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+}
+.birthday{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.my-bithday{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.deadline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.deadline-format{
+    margin-top: 30px;
+    text-align: center;
+}
+.image-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+.image-gallery > div{
+    width: 150px;
+}
+.image-gallery img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center 25%;
+    border-radius: 10px;
+}
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.chain{
+    transform: rotate(90deg);
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ccc;
+}
+.line{
+    width: 45%;
+    height: 10px;
+    border-bottom: 1px solid gray;
+}
+h4:not(.my-bithday){
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0;
+    margin: 0;
+    color: #5b545d;
+}
+p{
+    color: gray;
+}
+@media only screen and (max-width:768px) {  
+    .section{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }  
+}
