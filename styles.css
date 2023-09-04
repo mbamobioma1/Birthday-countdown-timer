@@ -77,5 +77,11 @@ p{
         width: 100%;
         grid-template-columns: 1fr;
     }
+    .deadline{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: unset;
+    }
     
 }
