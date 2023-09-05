@@ -1,87 +1,88 @@
-body{
-    box-sizing: border-box;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #efe8e2;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #efe8e2;
 }
-.section{
-    width: 80%;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-gap: 20px;
+.section {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 20px;
 }
-.image-container img{
-    display: block;
-    width: 100%;
-    border-radius: 10px;
-    background-color: #000;
+.image-container img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #000;
 }
 /* right side*/
-.right-container{
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 10px;
-    display: grid;
+.right-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
 }
-.birthday{
+.birthday {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.my-bithday {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.deadline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.deadline-format {
+  margin-top: 30px;
+  text-align: center;
+}
+.lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.chain {
+  transform: rotate(90deg);
+  margin-top: 10px;
+  font-size: 15px;
+  color: #ccc;
+}
+.line {
+  width: 45%;
+  height: 10px;
+  border-bottom: 1px solid gray;
+}
+h4:not(.my-bithday) {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 0;
+  margin: 0;
+  color: #5b545d;
+}
+p {
+  color: gray;
+}
+@media only screen and (max-width: 768px) {
+  .section {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .deadline {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
-}
-.my-bithday{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.deadline{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-}
-.deadline-format{
-    margin-top: 30px;
-    text-align: center;
-}
-.lines{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-.chain{
-    transform: rotate(90deg);
-    margin-top: 10px;
-    font-size: 15px;
-    color: #ccc;
-}
-.line{
-    width: 45%;
-    height: 10px;
-    border-bottom: 1px solid gray;
-}
-h4:not(.my-bithday){
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 0;
-    margin: 0;
-    color: #5b545d;
-}
-p{
-    color: gray;
-}
-@media only screen and (max-width:768px) {  
-    .section{
-        width: 100%;
-        grid-template-columns: 1fr;
-    }
-    .deadline{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
+  }
 }

@@ -1,73 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Birthday Count-down Timer</title>
-    <script src="https://kit.fontawesome.com/58b7424050.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/58b7424050.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <section class="section">
+      <article class="left-container">
+        <!--main image container-->
+        <div class="image-container">
+          <img
+            src="./images/my Happy Birthday Flyer.png"
+            alt="bithday picture"
+            width="100%"
+          />
+        </div>
+        <!--end of main image container-->
+      </article>
 
-        <article class="left-container">
-            <!--main image container-->
-            <div class="image-container">
-                <img src="./images/my Happy Birthday Flyer.png" alt="bithday picture" width="100%">
-            </div>
-            <!--end of main image container-->
-        </article>
-        
-        <article class="right-container">
-            <div class="birthday">
-                <!--work with the date on javaScript to alter the date dynamically-->
-                <h4 class="my-bithday">My Birthday is on September 20th 2023</h4>
-            </div>
-            <div class="lines">
-                <div class="line"></div>
-                <div class="chain"><i class="fa-solid fa-8"></i></div>
-                <div class="line"></div>
-            </div>
-            <!--this deadline is the area you should work on in the javaScript for the countdown timer-->
-            <div class="deadline">
-                <!--days-->
-                <div class="deadline-format">
-                    <h4 class="days">24</h4>
-                    <p>Days</p>
-                </div>
-                <!--end of days-->
-                <!--hours-->
-                <div class="deadline-format">
-                    <h4 class="hours">24</h4>
-                    <p>Hours</p>
-                </div>
-                <!--end of hours-->
+      <article class="right-container">
+        <div class="birthday">
+          <!--work with the date on javaScript to alter the date dynamically-->
+          <h4 class="my-bithday">My Birthday is on September 20th 2023</h4>
+        </div>
+        <div class="lines">
+          <div class="line"></div>
+          <div class="chain"><i class="fa-solid fa-8"></i></div>
+          <div class="line"></div>
+        </div>
+        <!--this deadline is the area you should work on in the javaScript for the countdown timer-->
+        <div class="deadline">
+          <!--days-->
+          <div class="deadline-format">
+            <h4 class="days">24</h4>
+            <p>Days</p>
+          </div>
+          <!--end of days-->
+          <!--hours-->
+          <div class="deadline-format">
+            <h4 class="hours">24</h4>
+            <p>Hours</p>
+          </div>
+          <!--end of hours-->
 
-                <!--minuts-->
-                <div class="deadline-format">
-                    <h4 class="mintes">10</h4>
-                    <p>Minutes</p>
-                </div>
-                <!--end of minutes-->
-            </div>
-            <!--end of deadline you should work on the javaScript for the counddown timer-->
-            <div class="lines">
-                <div class="line"></div>
-                <div class="chain"><i class="fa-solid fa-8"></i></div>
-                <div class="line"></div>
-            </div>
-            <div class="wish-text">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo eos autem
-                     maiores excepturi obcaecati quaerat tempora, atque quo, ullam nostrum omnis.
-                     Blanditiis perspiciatis eaque soluta harum, corporis veniam a sapiente!
-                     Lorem ipsum dolor sit amet consectetur, 
-                </p>
-                </div>
-        </article>
+          <!--minuts-->
+          <div class="deadline-format">
+            <h4 class="mintes">10</h4>
+            <p>Minutes</p>
+          </div>
+          <!--end of minutes-->
 
+          <!-- seconds -->
+          <div class="deadline-format">
+            <h4 class="mintes">10</h4>
+            <p>seconds</p>
+          </div>
+        </div>
+        <!--end of deadline you should work on the javaScript for the countdown timer-->
+        <div class="lines">
+          <div class="line"></div>
+          <div class="chain"><i class="fa-solid fa-8"></i></div>
+          <div class="line"></div>
+        </div>
+        <div class="wish-text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo eos
+            autem maiores excepturi obcaecati quaerat tempora, atque quo, ullam
+            nostrum omnis. Blanditiis perspiciatis eaque soluta harum, corporis
+            veniam a sapiente! Lorem ipsum dolor sit amet consectetur,
+          </p>
+        </div>
+      </article>
     </section>
     <script src="app.js"></script>
-</body>
-</body>
+  </body>
 </html>
